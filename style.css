@@ -9,6 +9,45 @@
 /* Utils */
 
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+/* header */
+
+header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: #C62D63;
+    font-weight: 900;
+    margin: 30px;
+}
+
+.column{
+    width: calc(95% / 3);
+    float: left;
+    margin: 0.5rem;
+    font-size: medium;
+    color: #FFFFFE;
+    background-color: #0F0E18;
+
+}
+
+.row{
+    margin: 0 -1rem;
+}
+.column>img{
+    height: 80px;
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+a{
+    color: #44A4CE;
+    text-decoration: none;
+}
+
+
