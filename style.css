@@ -26,18 +26,16 @@ h1{
     margin: 30px;
 }
 
+/* cards */
+
 .column{
     width: calc(95% / 3);
     float: left;
-    margin: 0.5rem;
+    margin: 0.6rem;
     font-size: medium;
     color: #FFFFFE;
     background-color: #0F0E18;
 
-}
-
-.row{
-    margin: 0 -1rem;
 }
 .column>img{
     height: 80px;
